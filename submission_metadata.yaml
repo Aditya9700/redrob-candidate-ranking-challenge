@@ -1,0 +1,44 @@
+# Redrob Hackathon — Submission Metadata
+team_name: "India-Runs-AI"
+
+primary_contact:
+  name: "Aditya Rana"
+  email: "aditya.rana@example.com"
+  phone: "+91-9999999999"
+
+team_members:
+  - name: "Aditya Rana"
+    email: "aditya.rana@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/aditya-rana/redrob-candidate-ranker"
+sandbox_link: "https://huggingface.co/spaces/aditya-rana/redrob-ranker"
+reproduce_command: "python rank.py --candidates ./[PUB] India_runs_data_and_ai_challenge/India_runs_data_and_ai_challenge/candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "Local Windows Machine"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.10"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Gemini"
+  - "Cursor"
+
+ai_usage_summary: |
+  Used Gemini for architecture discussions, designing logical filters to catch honeypots, and constructing scoring weights. Used Cursor for code editing and local validation. No candidate data was sent to external APIs.
+
+methodology_summary: |
+  Rule-based candidate ranking engine incorporating strict disqualifiers for honeypots (founding date, job duration, zero-duration expert skills), consulting-only histories, and CV-only specialists. Focuses scoring on engineering/ML titles, core semantic search and indexing skills, target YoE (5-9 years), and hybrid locations (Pune/Noida). Behavioral modifiers adjust rankings based on login recency, notice period, and responsiveness. Dynamic reasoning generation ensures unique, factual justifications for manual review.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
