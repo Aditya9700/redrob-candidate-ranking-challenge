@@ -1,0 +1,2 @@
+# No external python package dependencies are required.
+# The ranking script runs entirely using the Python Standard Library.

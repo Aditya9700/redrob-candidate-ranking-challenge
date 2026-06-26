@@ -1,0 +1,12 @@
+# Exclude large datasets
+[PUB] India_runs_data_and_ai_challenge/
+[PUB] India_runs_data_and_ai_challenge.zip
+__MACOSX/
+
+# Exclude python cache
+__pycache__/
+*.pyc
+
+# OS metadata
+.DS_Store
+Thumbs.db
