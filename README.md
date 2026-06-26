@@ -1,6 +1,6 @@
 # Intelligent Candidate Discovery & Ranking Engine
 
-Proof of Concept for the Redrob Hackathon: **Intelligent Candidate Discovery & Ranking Challenge**.
+Proof of Concept for the Redrob Hackathon: **Data & Al Challenge: Intelligent Candidate Discovery**.
 
 This repository contains a lightning-fast, highly accurate candidate ranking system built to identify the best-fit candidates for a **Senior AI Engineer — Founding Team** role, while avoiding keyword-stuffer traps and honeypots.
 
